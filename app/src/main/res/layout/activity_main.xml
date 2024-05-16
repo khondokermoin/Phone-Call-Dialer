@@ -40,7 +40,6 @@
             app:layout_constraintBottom_toTopOf="@+id/main_tabs_holder"
             app:layout_constraintEnd_toEndOf="parent"
             app:rippleColor="@color/pressed_item_foreground" />
-
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/main_tabs_holder"
             android:layout_width="match_parent"
@@ -49,6 +48,5 @@
             app:tabIndicator="@null"
             app:tabMinWidth="150dp"
             app:tabRippleColor="@null" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
